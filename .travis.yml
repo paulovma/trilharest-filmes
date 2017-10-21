@@ -1,1 +1,8 @@
 language: java
+deploy:
+  api-key:
+    secure: 5HJu3tY6CTRltQoLathkjmWq/wp/aEpJUo71PNjIe5NjfUrJw8tAmJfn+ZJAY99l/j1USLcncdvqtnX1jLhk+hMn8dsZIGG6kqaC96wNJpmq7XiWsqvpTGyWX+uJGwMKx1f4W7r4yRu8EkI/6Smqk9BPcDKLGZbVKh5KhThr8HFbz3IKx/8fVpSmUerL+HicUxekhQr8wAvWgR6MdBrTL71SFP64D2K0A+qS7WkKyYQ83XfH4L7jbmaAqP8Tq8L+bRLF2XpEjkHRLol6pAZcW6yvAlmn0Do8PJexKNGy9M93HBkjYQwfK8oLUm+jv0lqlkRB6rYZYmoVsj0R1JUBsoYXemFQaqFVUX21ptogdTYiN4vp3UbcwxyRubtVFSwOhjXcRGSBAw8UCtwS8N8IQ4FbffJSjTYJsm1Xgea89etalxgoTUVp+FHMlDaKfVmMl4LueXoBVc42sEJ3gAujHsIpFHk5uwzMY5A35CNoFjCyDi6JqCqa6R5kGN0j0X0feM1/aC25D69A1f4+k+O0VhsCG5DYIKDeqRUCCWWdcwj6pGRkRuu+SNWAw1I/TfIhIpsAWNHNpxvq7veJPqBr2YhKg6ddBuYubugsuiB2Xr8heLcgn/+Sc1GLqtK1pPtmy6ur/n7Un4EyCDm4JTzZ69QLOX/zJzkpySdU2z7Lo0k=
+  provider: heroku
+  app:
+    staging: pvma-trilharest-filmes-stg
+    master: pvma-trilharest-filmes-prd
